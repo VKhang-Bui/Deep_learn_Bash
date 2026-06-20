@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##source=MyVariantCaller
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	1005	rs123	A	T	50	PASS	DP=100
+chr1	2045	rs456	G	C	10	LowQual	DP=20
+chr2	5500	.	T	G	90	PASS	DP=50
+chr2	6700	rs789	C	A	99	PASS	DP=150
+chr3	1000	.	A	T	5	FAIL	DP=10
